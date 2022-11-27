@@ -1,0 +1,5 @@
+#Singleton: Patron de los más comunes.
+
+#Problema que resuelve: Tener una sola instancia y proveer un acceso global
+
+##Ejemplo: Cola de impresión. Manejador de archivos
