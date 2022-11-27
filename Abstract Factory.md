@@ -1,6 +1,6 @@
 ##Abstract Factory (n-objetos):  Patron para abstraer la lógica de creación de **grupos de objetos relacionados, una familia de objetos** entre sí con alguna dependencia, sin especificar sus clases concretas. Te da interfaces de familias de objetos,sin acoplarte a detalles.
 
-##Problema que resuelve: Abstracción de los detalles de implementación mediante una clases abstractas relacionadas que tienden a crecer.
+##Problema que resuelve: Abstracción de los detalles de implementación mediante una clases abstractas relacionadas que tienden a crecer.El cliente no sabe exactamente que grupo de objetos se han creados, solo conoce la interfaz.
 
 ###Ejemplo: Tengo una problematica que exige la creación de multiplies objetos con responsabilidades extendidas, es decir, que cubren no solo el problema principal sino multiples detalles
 

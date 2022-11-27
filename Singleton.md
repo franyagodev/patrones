@@ -1,8 +1,11 @@
 #Singleton: Patron de los más comunes.
 
-#Problema que resuelve: Tener una sola instancia y proveer un acceso global. Es la buena forma de tener una especie de "variable global"
+## Problema que resuelve: Tener una sola instancia y proveer un acceso global. Es la buena forma de tener una especie de "variable global" que siempre esté disponible
 
-##Ejemplo: Cola de impresión. Manejador de archivos
+## Ejemplo: Cola de impresión. Manejador de archivos , ORM con bbdd
+
+Lo más relevante, es el acceso global, realmente.
+
 
 Podría ser una jerarquía de clases, podría haber cierta especialización de objetos, subclases, pero solo 1. La clase singleton no debería ser final, se podría tener que extender, para ayuda a esa posible especialización.
 
